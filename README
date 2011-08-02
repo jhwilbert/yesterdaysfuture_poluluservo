@@ -1,0 +1,24 @@
+Yesterday's Future Controller
+-----------------------------
+
+Arduino sketch to control 4 servo motors reactive to 4 independent infra-red sensors over serial comm. This code already includes the serial IR calibration system that may vary from sensor to sensor. To calibrate yours, refer to link below. The sketch also requires NewSoftSerial library in order to interface with the arduino+polulu unit.
+
+Examples of the sketch running:
+------------------------------
+
+http://vimeo.com/27189509
+
+http://vimeo.com/27189372
+
+
+Component reference:
+--------------------
+
+Servo Motor HS-422 - http://www.coolcomponents.co.uk/catalog/product_info.php?products_id=235
+
+Pololu Micro Serial Servo Controller  - http://www.pololu.com/catalog/product/207
+
+IR Range Sensor - Sharp 10cm-80cm - http://www.coolcomponents.co.uk/catalog/product_info.php?products_id=236
+
+Calibrating infra-red sensor: http://www.acroname.com/robotics/info/articles/irlinear/irlinear.html
+
